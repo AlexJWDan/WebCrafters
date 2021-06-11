@@ -218,7 +218,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: black;
+  background-color: white;
 }
 
 #mainNav .navbar-toggler {
@@ -253,7 +253,7 @@ img::-moz-selection {
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: #fff;
+  color: white;
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -285,7 +285,11 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: black;
+    background-color: white;
+  }
+
+  .navbar.navbar-shrink .nav-link{
+    color: black !important;
   }
 
   #mainNav.navbar-shrink .navbar-brand {
