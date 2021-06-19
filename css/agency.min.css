@@ -263,6 +263,12 @@ img::-moz-selection {
 #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #fec503 !important;
 }
+@media (max-width: 991px) {
+  #mainNav .navbar-nav .nav-item .nav-link{
+    color: black !important;
+  }
+}
+
 
 @media (min-width: 992px) {
   #mainNav {
